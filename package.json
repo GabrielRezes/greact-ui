@@ -1,7 +1,7 @@
 {
   "name": "greact-ui",
-  "private": true,
-  "version": "0.1.1",
+  "private": false,
+  "version": "0.1.0",
   "type": "module",
   "engine": {
     "node": "16.15.1"
@@ -15,7 +15,8 @@
     "preview": "vite preview",
     "prepare": "cd .. && husky install template/.husky",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build",
+    "build-storybook": "storybook build -s public",
+    "serve-storybook": "serve storybook-static",
     "deploy": "npm version patch && npm publish"
   },
   "dependencies": {
