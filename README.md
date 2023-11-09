@@ -1,4 +1,4 @@
-# Biblioteca de Componente React - GREACT-UI
+# Biblioteca de Componentes React - GREACT-UI
 
 Aqui você encontrará o início de uma coleção de componentes prontos para uso em seus próprios projetos. 
 
